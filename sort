@@ -1,0 +1,3 @@
+sort:sorts the file content in an alphabetical order.
+input: sort name.txt
+output: mahi mahi
