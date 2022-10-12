@@ -1,0 +1,8 @@
+cat: The 'cat' command can be used to display the content of a file.
+input: cat >> name
+hai
+hello
+namasthe
+output: cat name
+haihello
+namasthe
