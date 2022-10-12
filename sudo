@@ -1,0 +1,3 @@
+sudo: Linux sudo command stands for Super User Do.
+usage: it is applied as a prefix of a few commands that superuser is allowed to execute.
+output: must be setuid root .
