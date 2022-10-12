@@ -1,0 +1,21 @@
+chmod: chnge mode
+usage: Linux chmod command is used to change the access permissions of files and directories.
+In the Linux file system, each file is associated with a particular owner and have permission access for different users. The user classes may be:
+owner
+group member
+Others (Everybody else)
+
+The file permissions in Linux are the following three types:
+read (r)
+write (w)
+execute (x)
+[20k61a1237@online 1237]$ chmod 700 name.txt
+[20k61a1237@online 1237]$ ls -l
+total 60
+-rwxr-xr-x 1 20k61a1237 it20 5088 2022-10-12 12:21 a.out
+drwxr-xr-x 2 20k61a1237 it20 4096 2022-10-12 11:49 mahi
+-rw-r--r-- 1 20k61a1237 it20    5 2022-10-12 13:28 name
+-rw-r--r-- 1 20k61a1237 it20  406 2022-10-12 12:15 Name.class
+-rw-r--r-- 1 20k61a1237 it20   91 2022-10-12 12:14 name.java
+-rwx------ 1 20k61a1237 it20   10 2022-10-12 13:11 name.txt
+-rw-r--r-- 1 20k61a1237 it20  145 2022-10-12 12:21 sum.c
